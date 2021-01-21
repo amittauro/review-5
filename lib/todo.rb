@@ -10,8 +10,18 @@ class Todo
   end
 
   def done(id)
-    id = id.to_i
-    list.delete_at(id - 1)
+    list.delete_at(index_item(id))
     list
   end
+
+  private
+
+  def parse_id(id)
+    id.to_i
+  end
+
+  def index_item(id)
+    parse_id(id) - 1
+  end
+
 end
