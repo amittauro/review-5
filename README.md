@@ -10,6 +10,9 @@ input = 'go shopping'
 
 share message
 
+Welcome to the Todo app! Your Todos:\n\n  You don't have any todos!\n\n
+What would you like to do?\n Type `add`, followed by a sentence, to add a todo.\n  Type `done`, followed by the todo ID, to complete a todo. \n
+
 Welcome to the Todo app! Your Todos:  You don't have any todos!  What would you like to do? Type `add`, followed by a sentence, to add a todo. Type `done`, followed by the todo ID, to complete a todo. 
 
 input = 'add go shopping'
@@ -39,5 +42,9 @@ TDD
 ToDo class
 
 1. User can add a todo item and returns an array with the item.
-2. User can complete an item and returns an array of the items with that item no longer there
-3.
+2. User can complete an item and returns an array of the items with that item no longer there.
+
+Display class
+1. welcome: returns welome output
+2. added_item: returns output
+3. done_item: returns expected output
