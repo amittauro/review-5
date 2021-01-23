@@ -11,7 +11,7 @@ input = 'go shopping'
 share message
 
 Welcome to the Todo app! Your Todos:\n\n  You don't have any todos!\n\n
-What would you like to do?\n Type `add`, followed by a sentence, to add a todo.\n  Type `done`, followed by the todo ID, to complete a todo. \n
+What would you like to do?\n Type `add`, followed by a sentence, to add a todo.\n Type `done`, followed by the todo ID, to complete a todo. \n
 
 Welcome to the Todo app! Your Todos:  You don't have any todos!  What would you like to do? Type `add`, followed by a sentence, to add a todo. Type `done`, followed by the todo ID, to complete a todo. 
 
@@ -48,3 +48,34 @@ Display class
 1. welcome: returns welome output
 2. added_item: returns output
 3. done_item: returns expected output
+
+Tests
+
+testing for overall behaviour, not testing for code. (so feature tests)
+
+test main class incrementally
+
+dont make assumptions about implementation
+
+just focusing on implementation wouldnt have considered implementation.
+
+test
+
+require other classes
+mock terminal as you can't test that
+
+require './todo class' but shouldn't be tightly coupled so dependency injection.
+
+if different todo could easily inject different todo implementation.
+
+Display(todo, )
+
+1. welcome message
+2. testing for adding message
+3. test for completion.
+
+Display class
+
+uncle bob: robert c martin
+
+interface 
